@@ -2,8 +2,18 @@
 name = "wordcount"
 version = "0.1.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "counter per character, word or line"
+readme = "README.md"
+repository = "https://github.com/TMR5454/wordcount"
+categories = ["command-line-utilities"]
+keywords = ["example", "frequency", "text"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[badges]
+appveyor = { repository = "TMR5454/wordcount" }
+travis-ci = { repository = "TMR5454/wordcount" }
 
 [dependencies]
 regex = "1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
