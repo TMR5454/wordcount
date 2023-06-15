@@ -8,6 +8,7 @@ readme = "README.md"
 repository = "https://github.com/TMR5454/wordcount"
 categories = ["command-line-utilities"]
 keywords = ["example", "frequency", "text"]
+exclude = ["test/*"]
 
 [badges]
 appveyor = { repository = "TMR5454/wordcount" }
